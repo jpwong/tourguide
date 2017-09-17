@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Tour Guide</string>
+    <string name="parks_yunv">珠海渔女</string>
+    <string name="parks_yunv_ad">广东省珠海市香洲区香炉湾畔</string>
+    <string name="amusement_changlong">长隆海洋王国</string>
+    <string name="amusement_changlong_ad">广东省珠海市横琴新区富祥湾</string>
+    <string name="museum_zhuhaibowuguan">珠海博物馆</string>
+    <string name="museum_zhuhaibowuguan_ad">广东省珠海市吉大景山路191号九洲城</string>
+    <string name="shopping_yangming">扬名广场</string>
+    <string name="shopping_yangming_ad">广东省珠海市香洲凤凰南路1088号</string>
+    <string name="none">None</string>
 </resources>

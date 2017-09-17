@@ -18,7 +18,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                return new NatureFragment();
+                return new ParksFragment();
             case 1:
                 return new AmusementFragment();
             case 2:
@@ -39,7 +39,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch (position) {
             case 0:
-                return "自然";
+                return "公园";
             case 1:
                 return "娱乐";
             case 2:

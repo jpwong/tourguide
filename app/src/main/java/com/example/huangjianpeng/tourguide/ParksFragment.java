@@ -12,13 +12,14 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by huangjianpeng on 2017/9/17.
  */
 
-public class MuseumFragment extends Fragment {
-    private String tag = "museum";
+public class ParksFragment extends Fragment {
+    private String tag = "parks";
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
@@ -28,8 +29,7 @@ public class MuseumFragment extends Fragment {
 
         final ArrayList<ScenicSpot> scenicSpotArrayList = new ArrayList<>();
 
-        scenicSpotArrayList.add(new ScenicSpot(R.string.museum_zhuhaibowuguan,
-                R.drawable.zhuhaibowuguan, R.string.museum_zhuhaibowuguan_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.parks_yunv,R.drawable.yunv,R.string.parks_yunv_ad));
 
         ScenicSpotAdapter scenicSpotAdapter = new ScenicSpotAdapter(getActivity(), scenicSpotArrayList);
 
@@ -54,9 +54,5 @@ public class MuseumFragment extends Fragment {
         });
 
         return rootView;
-    }
-
-    public MuseumFragment() {
-
     }
 }
