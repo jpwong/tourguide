@@ -29,7 +29,20 @@ public class ParksFragment extends Fragment {
 
         final ArrayList<ScenicSpot> scenicSpotArrayList = new ArrayList<>();
 
-        scenicSpotArrayList.add(new ScenicSpot(R.string.parks_yunv,R.drawable.yunv,R.string.parks_yunv_ad));
+
+        scenicSpotArrayList.add(new ScenicSpot(R.string.parks_yunv,
+                R.drawable.yunv,R.string.parks_yunv_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.parks_haibin,
+                R.drawable.haibin,R.string.parks_haibin_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.parks_yuanmingxinyuan,
+                R.drawable.yuanmingxinyuan,R.string.parks_yuanmingxinyuan_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.parks_shijingshan,
+                R.drawable.shijingshan,R.string.parks_shijingshan_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.parks_bailiandong,
+                R.drawable.bailiandong,R.string.parks_bailiandong_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.parks_putuosi,
+                R.drawable.putuosi,R.string.parks_putuosi_ad));
+
 
         ScenicSpotAdapter scenicSpotAdapter = new ScenicSpotAdapter(getActivity(), scenicSpotArrayList);
 

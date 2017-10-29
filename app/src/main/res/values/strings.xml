@@ -2,11 +2,47 @@
     <string name="app_name">Tour Guide</string>
     <string name="parks_yunv">珠海渔女</string>
     <string name="parks_yunv_ad">广东省珠海市香洲区香炉湾畔</string>
+    <string name="parks_bailiandong">白莲洞公园</string>
+    <string name="parks_bailiandong_ad">广东省珠海市香洲区九洲大道中段</string>
+    <string name="parks_haibin">海滨公园</string>
+    <string name="parks_haibin_ad">广东省珠海市香洲区海滨南路108号</string>
+    <string name="parks_shijingshan">石景山公园</string>
+    <string name="parks_shijingshan_ad">广东省珠海市香洲区海滨北路</string>
+    <string name="parks_yuanmingxinyuan">圆明新园</string>
+    <string name="parks_yuanmingxinyuan_ad">广东省珠海市香洲区九洲大道西兰埔</string>
+    <string name="parks_putuosi">普陀寺</string>
+    <string name="parks_putuosi_ad">广东省珠海市香洲区前山镇东坑村</string>
+
     <string name="amusement_changlong">长隆海洋王国</string>
     <string name="amusement_changlong_ad">广东省珠海市横琴新区富祥湾</string>
+    <string name="amusement_yuwenquan">珠海御温泉渡假村</string>
+    <string name="amusement_yuwenquan_ad">广东省珠海市斗门区黄杨山</string>
+    <string name="amusement_saichechang">珠海国际赛车场</string>
+    <string name="amusement_saichechang_ad">广东省珠海市香洲区金鼎镇</string>
+    <string name="amusement_yuchang">珠海海滨浴场</string>
+    <string name="amusement_yuchang_ad">广东省珠海市香洲区情侣路</string>
+    <string name="amusement_menghuanshuicheng">梦幻水城</string>
+    <string name="amusement_menghuanshuicheng_ad">广东省珠海市香洲区九洲大道西兰埔</string>
+
     <string name="museum_zhuhaibowuguan">珠海博物馆</string>
     <string name="museum_zhuhaibowuguan_ad">广东省珠海市吉大景山路191号九洲城</string>
+    <string name="museum_guyuan">古元美术馆</string>
+    <string name="museum_guyuan_ad">广东省珠海市梅华东路388号</string>
+    <string name="museum_haiyang">珠海海洋生态馆</string>
+    <string name="museum_haiyang_ad">广东省珠海市金湾区湾仔澳门环岛游码头正对面</string>
+    <string name="museum_yishu">珠海市艺术馆</string>
+    <string name="museum_yishu_ad">广东省珠海市九州大道东</string>
+    <string name="museum_feiyi">非艺艺术空间</string>
+    <string name="museum_feiyi_ad">广东省珠海市北山北路5巷1号</string>
+
     <string name="shopping_yangming">扬名广场</string>
     <string name="shopping_yangming_ad">广东省珠海市香洲凤凰南路1088号</string>
+    <string name="shopping_kouan">口岸购物广场</string>
+    <string name="shopping_kouan_ad">广东省珠海市迎宾南路1003号</string>
+    <string name="shopping_baihuo">珠海百货广场</string>
+    <string name="shopping_baihuo_ad">广东省珠海市吉大景山路222号</string>
+    <string name="shopping_huafa">华发商都</string>
+    <string name="shopping_huafa_ad">广东珠海香洲区珠海大道8号</string>
+
     <string name="none">None</string>
 </resources>

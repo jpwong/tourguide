@@ -30,6 +30,14 @@ public class MuseumFragment extends Fragment {
 
         scenicSpotArrayList.add(new ScenicSpot(R.string.museum_zhuhaibowuguan,
                 R.drawable.zhuhaibowuguan, R.string.museum_zhuhaibowuguan_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.museum_guyuan,
+                R.drawable.guyuan, R.string.museum_guyuan_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.museum_yishu,
+                R.drawable.yishu, R.string.museum_yishu_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.museum_haiyang,
+                R.drawable.haiyang, R.string.museum_haiyang_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.museum_feiyi,
+                R.drawable.feiyi, R.string.museum_feiyi_ad));
 
         ScenicSpotAdapter scenicSpotAdapter = new ScenicSpotAdapter(getActivity(), scenicSpotArrayList);
 

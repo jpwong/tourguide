@@ -30,6 +30,12 @@ public class ShoppingFragment extends Fragment {
 
         scenicSpotArrayList.add(new ScenicSpot(R.string.shopping_yangming,
                 R.drawable.yangmingguangchang, R.string.shopping_yangming_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.shopping_baihuo,
+                R.drawable.baihuo, R.string.shopping_baihuo_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.shopping_huafa,
+                R.drawable.huafa, R.string.shopping_huafa_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.shopping_kouan,
+                R.drawable.kouan, R.string.shopping_kouan_ad));
 
         ScenicSpotAdapter scenicSpotAdapter = new ScenicSpotAdapter(getActivity(), scenicSpotArrayList);
 

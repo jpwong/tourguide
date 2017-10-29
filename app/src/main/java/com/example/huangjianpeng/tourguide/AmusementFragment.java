@@ -30,6 +30,14 @@ public class AmusementFragment extends Fragment {
 
         scenicSpotArrayList.add(new ScenicSpot(R.string.amusement_changlong,
                 R.drawable.changlong, R.string.amusement_changlong_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.amusement_yuwenquan,
+                R.drawable.yuwenquan, R.string.amusement_yuwenquan_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.amusement_menghuanshuicheng,
+                R.drawable.menghuanshuicheng, R.string.amusement_menghuanshuicheng_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.amusement_saichechang,
+                R.drawable.saichechang, R.string.amusement_saichechang_ad));
+        scenicSpotArrayList.add(new ScenicSpot(R.string.amusement_yuchang,
+                R.drawable.yuchang, R.string.amusement_yuwenquan_ad));
 
         ScenicSpotAdapter scenicSpotAdapter = new ScenicSpotAdapter(getActivity(), scenicSpotArrayList);
 
