@@ -13,8 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.i("test","oncreat");
-
         TabLayout tabLayout = (TabLayout)findViewById(R.id.tabs);
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
@@ -26,21 +24,4 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
     }
 
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.i("test","onstop");
-    }
-
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        Log.i("test","onRestart");
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.i("test","onDestroy");
-    }
 }
