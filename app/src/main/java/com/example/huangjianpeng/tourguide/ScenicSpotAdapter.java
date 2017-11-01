@@ -10,6 +10,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,7 +38,7 @@ public class ScenicSpotAdapter extends ArrayAdapter<ScenicSpot> {
 
         ImageView imageView = listItemView.findViewById(R.id.image);
 
-        imageView.setImageResource(currentItem.getmImageId());
+        Glide.with(getContext()).load(currentItem.getmImageId()).into(imageView);
 
         TextView nameText = listItemView.findViewById(R.id.name_text);
 

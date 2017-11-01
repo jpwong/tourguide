@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.bumptech.glide.Glide;
 
 public class DetailInfoActivity extends AppCompatActivity {
 
@@ -21,7 +22,7 @@ public class DetailInfoActivity extends AppCompatActivity {
 
         ImageView imageView = (ImageView) findViewById(R.id.bigimage);
 
-        imageView.setImageResource(intent.getIntExtra("image", 0));
+        Glide.with(this).load(intent.getIntExtra("image", 0)).into(imageView);
 
         TextView addrText = (TextView) findViewById(R.id.address);
 
