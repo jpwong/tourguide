@@ -1,4 +1,9 @@
 <resources>
+    <string name="category_parks">公园</string>
+    <string name="category_amusement">娱乐</string>
+    <string name="category_museum">博物馆</string>
+    <string name="category_shopping">购物</string>
+
     <string name="app_name">Tour Guide</string>
     <string name="parks_yunv">珠海渔女</string>
     <string name="parks_yunv_ad">广东省珠海市香洲区香炉湾畔</string>

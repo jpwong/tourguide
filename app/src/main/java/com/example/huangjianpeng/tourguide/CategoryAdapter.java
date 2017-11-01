@@ -1,5 +1,7 @@
 package com.example.huangjianpeng.tourguide;
 
+import android.app.Activity;
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -10,20 +12,29 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    public CategoryAdapter(FragmentManager fm) {
+    public static final int TAB_COUNT = 4;
+    public static final int PARKS_INDEX = 0;
+    public static final int AMUSEMENT_INDEX = 1;
+    public static final int MUSEUM_INDEX = 2;
+    public static final int SHOPPING_INDEX = 3;
+
+    private Context context;
+
+    public CategoryAdapter(FragmentManager fm, Context context) {
         super(fm);
+        this.context = context;
     }
 
     @Override
     public Fragment getItem(int position) {
         switch (position) {
-            case 0:
+            case PARKS_INDEX:
                 return new ParksFragment();
-            case 1:
+            case AMUSEMENT_INDEX:
                 return new AmusementFragment();
-            case 2:
+            case MUSEUM_INDEX:
                 return new MuseumFragment();
-            case 3:
+            case SHOPPING_INDEX:
                 return new ShoppingFragment();
             default:
                 return null;
@@ -32,20 +43,20 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 4;
+        return TAB_COUNT;
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
         switch (position) {
-            case 0:
-                return "公园";
-            case 1:
-                return "娱乐";
-            case 2:
-                return "博物馆";
-            case 3:
-                return "购物";
+            case PARKS_INDEX:
+                return context.getString(R.string.category_parks);
+            case AMUSEMENT_INDEX:
+                return context.getString(R.string.category_amusement);
+            case MUSEUM_INDEX:
+                return context.getString(R.string.category_museum);
+            case SHOPPING_INDEX:
+                return context.getString(R.string.category_shopping);
             default:
                 return null;
         }

@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
-        CategoryAdapter categoryAdapter = new CategoryAdapter(getSupportFragmentManager());
+        CategoryAdapter categoryAdapter = new CategoryAdapter(getSupportFragmentManager(), this);
 
         viewPager.setAdapter(categoryAdapter);
 
