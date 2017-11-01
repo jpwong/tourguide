@@ -16,27 +16,27 @@ public class ScenicSpot {
         this.mAddressId = mAddressId;
     }
 
-    public int getmNameId() {
+    public int getNameId() {
         return mNameId;
     }
 
-    public void setmNameId(int mNameId) {
+    public void setNameId(int mNameId) {
         this.mNameId = mNameId;
     }
 
-    public int getmImageId() {
+    public int getImageId() {
         return mImageId;
     }
 
-    public void setmImageId(int mImageId) {
+    public void setImageId(int mImageId) {
         this.mImageId = mImageId;
     }
 
-    public int getmAddressId() {
+    public int getAddressId() {
         return mAddressId;
     }
 
-    public void setmAddressId(int mAddressId) {
+    public void setAddressId(int mAddressId) {
         this.mAddressId = mAddressId;
     }
 }

@@ -38,15 +38,15 @@ public class ScenicSpotAdapter extends ArrayAdapter<ScenicSpot> {
 
         ImageView imageView = listItemView.findViewById(R.id.image);
 
-        Glide.with(getContext()).load(currentItem.getmImageId()).into(imageView);
+        Glide.with(getContext()).load(currentItem.getImageId()).into(imageView);
 
         TextView nameText = listItemView.findViewById(R.id.name_text);
 
-        nameText.setText(currentItem.getmNameId());
+        nameText.setText(currentItem.getNameId());
 
         TextView addrText = listItemView.findViewById(R.id.addr_text);
 
-        addrText.setText(currentItem.getmAddressId());
+        addrText.setText(currentItem.getAddressId());
 
         return listItemView;
     }

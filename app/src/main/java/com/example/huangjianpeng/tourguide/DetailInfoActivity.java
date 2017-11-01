@@ -20,7 +20,7 @@ public class DetailInfoActivity extends AppCompatActivity {
 
         nameText.setText(intent.getIntExtra("name", R.string.none));
 
-        ImageView imageView = (ImageView) findViewById(R.id.bigimage);
+        ImageView imageView = (ImageView) findViewById(R.id.big_image);
 
         Glide.with(this).load(intent.getIntExtra("image", 0)).into(imageView);
 

@@ -58,9 +58,9 @@ public class ParksFragment extends Fragment {
 
                 Intent intent = new Intent(getContext(),DetailInfoActivity.class);
 
-                intent.putExtra("name",scenicSpot.getmNameId());
-                intent.putExtra("image",scenicSpot.getmImageId());
-                intent.putExtra("address",scenicSpot.getmAddressId());
+                intent.putExtra("name",scenicSpot.getNameId());
+                intent.putExtra("image",scenicSpot.getImageId());
+                intent.putExtra("address",scenicSpot.getAddressId());
 
                 startActivity(intent);
             }
